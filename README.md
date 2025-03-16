@@ -31,7 +31,7 @@ Configure your MCP settings in `claude_desktop_config.json`:
 {
     "mcpServers": {
         "browser-use": {
-            "command": "/path/to/uv", // Absolute path might be needed otherwise, 'uv' is sufficient
+            "command": "uv", // Absolute path might be needed otherwise
             "args":[
                 "--directory",
                 "/path/to/your/project/", // Absolute path
